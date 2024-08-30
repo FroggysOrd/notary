@@ -9,12 +9,16 @@ This project introduces a blockchain-based notary service on the Stacks blockcha
 
 _What is a Blockchain?_
 A blockchain is like a super-secure digital notebook shared across many computers. When something is written in this notebook, it can't be changed unless everyone agrees. This makes blockchain perfect for things like digital money (cryptocurrencies) and secure, unchangeable records.
+
 _The Role of a Notary_
 A notary is a person who checks that people are who they say they are and that they are signing documents willingly. Notaries help prevent fraud and make sure that legal documents are trustworthy.
+
 _What is a Smart Contract?_
 A smart contract is like a digital agreement written in computer code. Instead of being on paper, this contract lives on the blockchain. When certain conditions are met, the smart contract automatically does what it’s supposed to, like transferring money or recording a signature.
+
 _Identity Verification_
 Identity verification is how we make sure someone is really who they say they are. In this system, identity verification happens when a person proves to a notary that they own a specific digital wallet on the Stacks blockchain.
+
 _On-Chain Cryptographic Verification_
 On-chain cryptographic verification is a fancy way of saying that the blockchain can check if a digital signature (like one from a wallet) is valid. This helps us trust that the person signing a document really is who they say they are.
 
@@ -39,7 +43,11 @@ _Why Use This Service?_
 4. Trust: Because your wallet is certified, others can trust that your digital signatures are genuine.
 
 **Technical Details**
+
 _Stacks Blockchain_: Stacks is a blockchain that works with Bitcoin. It allows for smart contracts and decentralized apps (dApps) while using Bitcoin’s power to keep everything secure.
+
 _Clarity Language_: Clarity is the programming language used to write smart contracts on the Stacks blockchain. It’s designed to be predictable and secure, making it perfect for important agreements like contracts.
+
 _Certification Smart Contract_: A smart contract on the Stacks blockchain will handle the certification process. This contract keeps track of which wallets are linked to which people, based on the notarized documents uploaded to the "on-chain-notary" service.
+
 _Signature Verification_: When you sign a contract with your wallet, the blockchain checks the signature against the certified wallet address. This ensures that the person signing is the same person who owns the wallet, making the signature legally valid.
